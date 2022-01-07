@@ -1,24 +1,37 @@
-# README
+# The Resident Zombie
+<br>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Descrição
+O mundo, como o conhecemos, caiu em um cenário apocalíptico. O "Influenzer T-Virus" (também conhecido como vírus Twiter) está transformando seres humanos em bestas estúpidas (também conhecidos como Zumbis), famintos por cancelar os humanos e comer seus membros. Este sistema ajuda a resistência conectando os humanos restantes. Ele será essencial para detectar novas infecções e compartilhar recursos entre os membros.
 
-Things you may want to cover:
+## 🔧 Requisitos
+**1. Cadastro de Sobreviventes.**
 
-* Ruby version
+Cadastrar Dados, Localização e Itens Consigo.
 
-* System dependencies
+**2. Atualizar Localização de Sobrevivente.**
 
-* Configuration
+Registrar nova localização, sem salvar a antiga.
 
-* Database creation
+**3. Reportar Sobrevivente como Infectado.**
 
-* Database initialization
+Um sobrevivente é infectado quando outros 5 sobreviventes o acusam de zombie.
 
-* How to run the test suite
+**4. Infectados não tem acesso ao seu inventário.**
 
-* Services (job queues, cache servers, search engines, etc.)
+Um infectado não pode ver seus itens e nem trocar com outros players.
 
-* Deployment instructions
+**5. Sobreviventes podem trocar itens entre si.**
 
-* ...
+A troca deve ser justa e o valor dos itens devem ser iguais.
+
+**6. Relatórios Públicos**
+
+Porcentagem de usuários infectados.
+
+Porcentagem de usuários não infectados.
+
+Média de cada item por sobrevivente.
+
+Pontos perdidos por sobreviventes infectados.
+
